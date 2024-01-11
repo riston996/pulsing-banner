@@ -1,0 +1,62 @@
+body {
+    background: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Rammetto One', cursive;
+    
+}
+
+.ad {
+    background: #35654d;
+    border: 5px solid #A3BC71;
+    text-align: center;
+    
+}
+
+.cta {
+    border: 2px solid #A3BC71;
+    padding: 5px 10px;
+    background: red;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+}
+
+.cta:hover {
+    border: 2px solid #A3BC71;
+    padding: 5px 10px;
+    background: #FFF07C;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: red;
+    
+}
+
+.act {
+    animation: pulse 2s infinite ease-in-out;
+     
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Starting point - normal size */
+  }
+  50% {
+    transform: scale(1.1); /* Midpoint - slightly larger */
+  }
+  100% {
+    transform: scale(1); /* Ending point - back to normal size */
+  }
+}
+
+@keyframes pulse2 {
+  0% {
+    transform: rotate(0deg); /* Starting point - no rotation */
+  }
+  50% {
+    transform: rotate(10deg); /* Midpoint - slight clockwise rotation */
+  }
+  100% {
+    transform: rotate(0deg); /* Ending point - back to no rotation */
+  }
+}
